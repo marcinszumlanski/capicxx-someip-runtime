@@ -132,6 +132,7 @@ include_directories (
     ${Boost_INCLUDE_DIR}
     ${COMMONAPI_INCLUDE_DIRS}
     ${VSOMEIP_INCLUDE_DIRS}
+    ../../aptiv/vsomeip/interface/compat
 )
 
 file (GLOB CommonAPI-SomeIP_SRC "src/CommonAPI/SomeIP/*.cpp")
